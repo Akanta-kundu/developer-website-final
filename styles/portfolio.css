@@ -7,10 +7,12 @@ BODY {font-family: 'Open Sans, sans-serif;'}
  border: 0 ; 
  color: #FFF;
 
+
  font-size: 20px;
- font-style: normal;
+ font-style: normal; 
  font-weight: 700;
  padding: 20px 40px ;    }
+ 
 nav { 
     display: flex;
     justify-content:space-between ;
@@ -31,3 +33,5 @@ nav {
     }
     nav a{ text-decoration: none ; 
     color:#474747 ; }   
+    .header { background-color: #FFF8F3 ;}
+  

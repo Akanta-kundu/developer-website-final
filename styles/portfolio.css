@@ -107,7 +107,8 @@ nav {
  }
  .what-i-do { 
    text-align: center;
-   margin-bottom: 130px;
+   margin-top: 130px;
  }
  #sec { padding: 30px 150px; }
-  
+  .skill-container { display:flex ; 
+   }  

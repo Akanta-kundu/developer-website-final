@@ -12,7 +12,12 @@ BODY {font-family: 'Open Sans, sans-serif;'}
  font-style: normal; 
  font-weight: 700;
  padding: 20px 40px ;    }
- 
+
+
+ .about{ border-radius: 10px;
+  background: #FFF8F3;   } 
+ .about { padding: 150px;
+margin-top: 150px; }
 nav { 
     display: flex;
     justify-content:space-between ;
@@ -40,15 +45,54 @@ nav {
       background-position: bottom right; 
     } 
     .banner 
-     { padding: 30px 10px 30px 150px ;
+     { padding: 30px 10px 0px 150px ;
          display: flex;
          align-items: center;
+         justify-content: space-between;
         
     }
+    .banner-content {   max-width: 500px ;}
     .banner.profie-pic { display: flex ; }
   .profile-pic { 
     width: 584px;
     
+    
   }
-   
+  .profile-pic { object-position: left;}
+  .banner-greeting {  color: #474747 ;
+    
+    font-size: 45px;
+ 
+    font-weight: 600;
+    margin-bottom: 0px;
+
+    }
+    .banner-title { font-size: 85px;
+      
+      font-weight: 700;
+     margin-top:  5px;
+    margin-bottom: 20px ; }
+     
+    .banner-description { color:  #757575;
+    
+    font-size: 18px;
+    
+    font-weight: 400; }
+
+    /*about section styles*/ 
+
+    .about-me { color:  #181818;
+      text-align: center;
+      
+      font-size: 35px;
+      
+      font-weight: 700;}
+      .about-des {color:  #757575;
+        text-align: center;
+        
+        font-size: 18px;
+        
+        font-weight: 400;
+         }
+
   

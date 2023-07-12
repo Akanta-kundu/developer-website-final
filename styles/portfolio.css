@@ -15,9 +15,10 @@ BODY {font-family: 'Open Sans, sans-serif;'}
 
 
  .about{ border-radius: 10px;
-  background: #FFF8F3;   } 
- .about { padding: 150px;
-margin-top: 150px; }
+  background: #FFF8F3;   
+ padding: 150px;
+ margin-top: 150px; }
+
 nav { 
     display: flex;
     justify-content:space-between ;
@@ -93,6 +94,20 @@ nav {
         font-size: 18px;
         
         font-weight: 400;
-         }
 
+         }
+.main-baal 
+{ 
+  max-width: 1140px;
+  margin: 0 auto;  
+ }
+ .about-info-container { 
+    display: flex ; 
+    justify-content: space-around;
+ }
+ .what-i-do { 
+   text-align: center;
+   margin-bottom: 130px;
+ }
+ #sec { padding: 30px 150px; }
   
